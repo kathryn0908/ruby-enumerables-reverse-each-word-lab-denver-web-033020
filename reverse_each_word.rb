@@ -3,6 +3,6 @@ def reverse_each_word(string)
   new_array = string.split (/ /)
   new_array.each do |b| 
   binding.pry
-  puts  "#{b.reverse}"
+  return  "#{b.reverse}"
   end 
 end
