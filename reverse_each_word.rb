@@ -5,5 +5,5 @@ def reverse_each_word(string)
   #binding.pry
   "#{b.reverse}"
   end 
-  return string
+  return "#{b.reverse}"
 end
